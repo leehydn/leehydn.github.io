@@ -1,38 +1,61 @@
-title: WHY ME?
+# Site settings
 email: lhd@kaist.ac.kr
-description: "A simple dark theme with easy multilingual setup"
-twitter_username: lhd
-github_username:  leehyndn
-permalink: /:categories/:year/:month/:title/
+
+home:
+  EN: Home
+  JA: ホーム
+  KR: 홈
+
+portweb: 
+  EN: devlog.ml
+  JA: devlog.ml
+  KR: ko.devlog.ml
+
+title:
+  EN: Hyeondong Lee
+  JA: Hyeondong Lee
+  KR: Hyeondong Lee
+  CN: Hyeondong Lee
+
+footTitle:
+  EN: Thank you!
+  JA: ありがとうございます。
+  CN: 您好！
+  KR: 안녕하세요!
+
+contact:
+  EN: Feel free to contact me!
+  JA: ご連絡はメールでお願いします。
+  CN: 请通过电子邮件与我联系。谢谢。
+  KR: 기타 연락은 메일로 부탁드립니다.
+
+weblink:
+  EN: Blog
+  JA: 技術ブログ（英文）
+  KR: 블로그
+
+description:
+  EN: Hello! I am an undergraduate ECE student studying in KAIST, South Korea. I am working on my study to become a skilled engineer. Thank you.
+  JA: こんにちは！韓国のKAISTの電気電子工学部に所属している大学生です。立派な学者やエンジニアになるため日々邁進しています。失敗にも屈せず世界に役立てられるように頑張ります。
+  CN: 我是一名学习电气工程和计算机的学生。
+  KR: 안녕하세요! 저의 블로그에 오신 것을 환영합니다.
+
+index:
+  EN: index.html
+  JA: index_ja.html
+  CN: index_cn.html
+  KR: index_kr.html
+
 defaults:
-  - scope:
-      path: "en"
-    values:
-      lang: "en"
-      feed: /en/feed.rss
-  - scope:
-      path: "pt"
-    values:
-      lang: "pt"
-      feed: /pt/feed.rss
-  - scope:
-      path: "_posts"
-    values:
-      layout: post
-      comments: true
-  - scope:
-      path: "_posts/en"
-    values:
-      lang: "en"
-      permalink: /en/:categories/:year/:month/:title/
-  - scope:
-      path: "_posts/pt"
-    values:
-      lang: "pt"
-      permalink: /pt/:categories/:year/:month/:title/
+  -
+    hidden: false
+
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "hyeondnl.github.io" # the base hostname & protocol for your site
+twitter_username: hyeondnl
+github_username:  hyeondnl
+github_subname: naruei
+linkedin_username:  hyeondnl
 
 # Build settings
 markdown: kramdown
-exclude:
-  - Gemfile
-  - Gemfile.lock

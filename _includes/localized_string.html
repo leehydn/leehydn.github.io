@@ -1,3 +1,0 @@
-{% assign string = include.string | downcase | replace: " ", "_" %}
-{% assign lang = include.lang | default: page.lang %}
-{{ site.data.localization.strings[string][lang] | default: include.string }}
