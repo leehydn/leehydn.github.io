@@ -1,0 +1,58 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            {{ site.title | escape }}
+            </li>
+            {% assign email = site.email %}
+            {% if email %}
+              <li><a href="mailto:{{ site.email }}">{{ email }}</a></li>
+            {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          {% assign feed_path = site.data.config.feed_path | default: site.theme_config.feed_path | default: site.feed.path %}
+          {% if feed_path %}
+            <li>
+              {% include icon-feed.html %}
+            </li>
+          {% endif %}
+
+          {% assign github_username = site.data.config.github_username | default: site.github_username %}
+          {% if github_username %}
+            <li>
+              {% include icon-github.html username=github_username %}
+            </li>
+          {% endif %}
+
+          {% assign twitter_username = site.data.config.twitter_username | default: site.twitter_username %}
+          {% if twitter_username %}
+            <li>
+              {% include icon-twitter.html username=twitter_username %}
+            </li>
+          {% endif %}
+
+          {% assign facebook_username = site.data.config.facebook_username | default: site.facebook_username %}
+          {% if facebook_username %}
+            <li>
+              {% include icon-facebook.html username=facebook_username %}
+            </li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        {% assign localized_description = site.data.localization.description[page.lang] %}
+        {% assign description = localized_description | default: site.description %}
+        <p>{{ description | escape }}</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>

@@ -1,0 +1,3 @@
+{% if page.lang != "nil" %}
+  {% assign _lang = page.lang | default: site.lang | default: "en" %}
+{% endif %}

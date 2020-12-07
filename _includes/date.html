@@ -1,0 +1,10 @@
+{% include language.html %}
+
+{% assign date_config = site.data.localization.date_format | default: site.theme_config.date_format
+  | default: site.data.config.date_format | default: site.date_format %}
+{% if date_config.first %}
+  {% assign date_config = date_config[_lang] %}
+{% endif %}
+
+{% assign date_format = date_config | default: "%b %-d, %Y" %}
+{{ include.date | date: date_format }}
