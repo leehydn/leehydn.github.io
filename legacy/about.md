@@ -37,6 +37,7 @@ Seoul, South Korea
 - [chainer]() (bugfix, translation)
 - [Pytorch]() (translation, documentation)
 - [FlyingSG]() (bugfix)
+- [Apache OpenOffice]() (translation, bugfix)
 
 #### CV
  [~~Download~~]() work in progress (update: 2020.6)

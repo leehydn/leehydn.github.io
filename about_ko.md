@@ -3,7 +3,7 @@ layout: page
 title: 프로필
 permalink: /about_kr/
 ref: about
-lang: KR
+lang: 한
 hidden: false
 ---
 

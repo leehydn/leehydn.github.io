@@ -45,7 +45,7 @@ index:
   日: index_ja.html
   CN: index_cn.html
   한: index_ko.html
-ss
+
 defaults:
   -
     hidden: false
