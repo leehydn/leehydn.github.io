@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 프로필
-permalink: /about_kr/
+permalink: /ko/about
 ref: about
 lang: 한
 hidden: false

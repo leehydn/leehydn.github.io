@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about_ja/
+permalink: /ja/about/
 ref: about
 lang: 日
 hidden: false
