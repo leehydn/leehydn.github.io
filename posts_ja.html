@@ -1,13 +1,12 @@
 ---
 layout: default
-ref: index
-lang: EN
-hidden: true
+ref: posts
+lang: 日
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">記事一覧</h1>
 
   <ul class="post-list">
     {% assign posts=site.posts | where:"lang", page.lang %}
@@ -22,6 +21,6 @@ hidden: true
     {% endfor %}
   </ul>
 
-  <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
+  <!--<p class="rss-subscribe">フォロー<a href="{{ "/flux.xml" | prepend: site.baseurl }}">RSS</a></p>-->
 
 </div>

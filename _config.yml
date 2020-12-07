@@ -3,49 +3,49 @@ email: lhd@kaist.ac.kr
 
 home:
   EN: Home
-  JA: ホーム
-  KR: 홈
+  日: ホーム
+  한: 홈
 
 portweb: 
   EN: devlog.ml
-  JA: devlog.ml
-  KR: ko.devlog.ml
+  日: devlog.ml
+  한: ko.devlog.ml
 
 title:
   EN: Hyeondong Lee
-  JA: Hyeondong Lee
-  KR: Hyeondong Lee
+  日: Hyeondong Lee
+  한: Hyeondong Lee
   CN: Hyeondong Lee
 
 footTitle:
   EN: Thank you!
-  JA: ありがとうございます。
+  日: ありがとうございます。
   CN: 您好！
-  KR: 안녕하세요!
+  한: 안녕하세요!
 
 contact:
   EN: Feel free to contact me!
-  JA: ご連絡はメールでお願いします。
+  日: ご連絡はメールでお願いします。
   CN: 请通过电子邮件与我联系。谢谢。
-  KR: 기타 연락은 메일로 부탁드립니다.
+  한: 기타 연락은 메일로 부탁드립니다.
 
 weblink:
   EN: Blog
-  JA: 技術ブログ（英文）
-  KR: 블로그
+  日: 技術ブログ（英文）
+  한: 블로그
 
 description:
   EN: Hello! I am an undergraduate ECE student studying in KAIST, South Korea. I am working on my study to become a skilled engineer. Thank you.
-  JA: こんにちは！韓国のKAISTの電気電子工学部に所属している大学生です。立派な学者やエンジニアになるため日々邁進しています。失敗にも屈せず世界に役立てられるように頑張ります。
+  日: こんにちは！韓国のKAISTの電気電子工学部に所属している大学生です。立派な学者やエンジニアになるため日々邁進しています。失敗にも屈せず世界に役立てられるように頑張ります。
   CN: 我是一名学习电气工程和计算机的学生。
-  KR: 안녕하세요! 저의 블로그에 오신 것을 환영합니다.
+  한: 안녕하세요! 저의 블로그에 오신 것을 환영합니다.
 
 index:
   EN: index.html
-  JA: index_ja.html
+  日: index_ja.html
   CN: index_cn.html
-  KR: index_kr.html
-
+  한: index_ko.html
+ss
 defaults:
   -
     hidden: false

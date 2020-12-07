@@ -1,12 +1,12 @@
 ---
 layout: default
-ref: index
-lang: KR
+ref: posts
+lang: EN
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">포스트</h1>
+  <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
     {% assign posts=site.posts | where:"lang", page.lang %}
@@ -21,6 +21,6 @@ lang: KR
     {% endfor %}
   </ul>
 
-  <!--<p class="rss-subscribe">フォロー<a href="{{ "/flux.xml" | prepend: site.baseurl }}">RSS</a></p>-->
+  <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
 
 </div>
