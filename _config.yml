@@ -40,18 +40,6 @@ description:
   CN: 我是一名学习电气工程和计算机的学生。
   한: 안녕하세요! 저의 블로그에 오신 것을 환영합니다.
 
-index:
-  EN: index.html
-  日: index_ja.html
-  CN: index_cn.html
-  한: index_ko.html
-
-posts:
-  EN: posts.html
-  日: posts_ja.html
-  CN: posts_cn.html
-  한: posts_ko.html
-
 defaults:
   -
     hidden: false
