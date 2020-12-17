@@ -107,6 +107,13 @@ a {
             color: darken($dbrand-color, 15%);
         }
     }
+    
+    &.site-title {
+        color: $title-color;
+        @media (prefers-color-scheme: dark) {
+        color: $dtitle-color;
+        }
+    }
 
     &:hover {
         color: $text-color;
