@@ -44,7 +44,7 @@ defaults:
   -
     hidden: false
 
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/en" # the subpath of your site, e.g. /blog
 url: "leehydn.github.io" # the base hostname & protocol for your site
 twitter_username: leehydn
 github_username:  leehydn
