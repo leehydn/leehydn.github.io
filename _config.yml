@@ -1,5 +1,5 @@
 # Site settings
-email: lhd@kaist.ac.kr
+email: leehydn@kaist.ac.kr
 
 home:
   EN: Home
@@ -45,11 +45,11 @@ defaults:
     hidden: false
 
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "hyeondnl.github.io" # the base hostname & protocol for your site
-twitter_username: hyeondnl
-github_username:  hyeondnl
+url: "leehydn.github.io" # the base hostname & protocol for your site
+twitter_username: leehydn
+github_username:  leehydn
 github_subname: naruei
-linkedin_username:  hyeondnl
+linkedin_username:  leehydn
 
 # Build settings
 markdown: kramdown
