@@ -32,11 +32,6 @@ $themes: (
     )
 );
 
-@include light-theme;
-@media (prefers-color-scheme: dark) {
-    @include dark-theme;
-}
-
 /*
 $text-color:       #fff !default; //#111 !default;
 $background-color: #282828 !default; //#fdfdfd !default;
