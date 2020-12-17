@@ -9,7 +9,7 @@ home:
 portweb: 
   EN: devlog.ml
   JA: devlog.ml
-  KO: ko.devlog.ml
+  KO: devcloud.tistory.com
 
 title:
   EN: Hyeondong Lee
@@ -21,7 +21,7 @@ footTitle:
   EN: Thank you!
   JA: ありがとうございます。
   CN: 您好！
-  KO: 안녕하세요!
+  KO: 방문해 주셔서 감사합니다.
 
 contact:
   EN: Feel free to contact me!
@@ -38,7 +38,7 @@ description:
   EN: Hello! I am an undergraduate student from South Korea, studying computer science and mathematics. Thanks for your visit!
   JA: こんにちは！韓国のKAISTの電気電子工学部に所属している大学生です。立派な学者やエンジニアになるためJA々邁進しています。失敗にも屈せず世界に役立てられるように頑張ります。
   CN: 我是一名学习电气工程和计算机的学生。
-  KO: 안녕하세요! 저의 블로그에 오신 것을 환영합니다.
+  KO: 안녕하세요. 여러분과 만나게 되어 반갑습니다.
 
 index:
   EN: index
