@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 프로필
-permalink: /legacy/about_kr
+permalink: /legacy/ko/about
 ref: legacy_about
 lang: 한
 hidden: true

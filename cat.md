@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Linear
-permalink: /linear/
+permalink: /linear
 ref: newcat
 lang: EN
 hidden: true
