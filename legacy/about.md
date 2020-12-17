@@ -12,21 +12,21 @@ hidden: true
 
 ## Hyeondong Lee 
 [![Generic badge](https://img.shields.io/badge/mail-Hyeondong_Lee-brown.svg)](mailto:hyeondnl@kaist.ac.kr) 
-> A Student, and an enthusiastic fledgling developer 
+> A math student, and an enthusiastic fledgling developer 
 
 #### Location
 Seoul, South Korea
 
 #### Education
 - 2016.3 - 2019.2: Korea Science Academy of KAIST
-- 2020.3 - present: Department of ECE, Korea Advanced Institute of Science and Technology (KAIST)
+- 2020.3 - present: School of computing, Korea Advanced Institute of Science and Technology (KAIST)
 
 #### Skills
 - Software Development
     - ##### SwiftUI, .NET, Qt
 - Data processing and Math
     - ##### including C/C++, Python, Ruby, Scala, and R
--  Web development
+- Web development
     - ##### HTML5, CSS, JavaScript, Sass
 - Hardware & Embedded
     - ##### VHDL, Verilog, and some PCBs!
