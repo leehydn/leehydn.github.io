@@ -22,3 +22,8 @@
   src: url(../assets/fonts/caruta-Roman.woff) format('woff');
   font-weight: 400;
 }
+@font-face {
+  font-family: "Caruta";
+  src: url(../assets/fonts/caruta-Bold.woff) format('woff');
+  font-weight: 600;
+}
