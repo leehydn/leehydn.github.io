@@ -243,7 +243,7 @@
     font-weight: 600;
 
     @include media-query($on-palm) {
-        font-size: 24px;
+        font-size: 15px;
     }
     
     @include media-query($on-laptop) {
