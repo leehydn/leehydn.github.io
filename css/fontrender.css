@@ -1,120 +1,18 @@
 @font-face {
   font-family: "Hiragino";
   src: "./hiragino.woff" format("woff");
+  unicode-range: U+4E00–U+9FBF, U+3040–U+309F, U+30A0–U+30FF;
 }
 
-@font-face {
-  font-family: Caruta;
-  src: url(../assets/fonts/caruta-Roman.woff) format('woff');
-  font-weight: 400;
-}
-@font-face {
-  font-family: Caruta;
-  src: url(../assets/fonts/caruta-Bold.woff) format('woff');
-  font-weight: 700;
-}
-@font-face {
-  font-family: Caruta;
-  src: url(../assets/fonts/caruta-BoldItalic.woff) format('woff');
-  font-weight: 700;
-  font-style: italic;
-}
-@font-face {
-  font-family: Caruta;
-  src: url(../assets/fonts/caruta-Italic.woff) format('woff');
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: Klien;
-  src: url(../assets/fonts/klein-Thin.woff) format('woff');
-  font-weight: 100;
-  unicode-range:U+0041-005A, U+0061-007A, U+0030-0039;
-}
-@font-face {
-  font-family: Klien;
-  src: url(../assets/fonts/klein-ExtraLight.woff) format('woff');
-  font-weight: 100;
-  unicode-range:U+0041-005A, U+0061-007A, U+0030-0039;
-}
-@font-face {
-  font-family: Klien;
-  src: url(../assets/fonts/klein-Light.woff) format('woff');
-  font-weight: 200;
-  unicode-range:U+0041-005A, U+0061-007A, U+0030-0039;
-}
-@font-face {
-  font-family: Klien;
-  src: url(../assets/fonts/klein-Book.woff) format('woff');
-  font-weight: 300;
-  unicode-range:U+0041-005A, U+0061-007A, U+0030-0039;
-}
 @font-face {
   font-family: Klien;
   src: url(../assets/fonts/klein-Regular.woff) format('woff');
   font-weight: 400;
-  unicode-range:U+0041-005A, U+0061-007A, U+0030-0039;
-}
-@font-face {
-  font-family: Klien;
-  src: url(../assets/fonts/klein-Medium.woff) format('woff');
-  font-weight: 500;
-  unicode-range:U+0041-005A, U+0061-007A, U+0030-0039;
-}
-@font-face {
-  font-family: Klien;
-  src: url(../assets/fonts/klein-Bold.woff) format('woff');
-  font-weight: 700;
-  unicode-range:U+0041-005A, U+0061-007A, U+0030-0039;
-}
-@font-face {
-  font-family: Klien;
-  src: url(../assets/fonts/klein-ExtraBold.woff) format('woff');
-  font-weight: 800;
-  unicode-range:U+0041-005A, U+0061-007A, U+0030-0039;
-}
-@font-face {
-  font-family: Klien;
-  src: url(../assets/fonts/klein-Black.woff) format('woff');
-  font-weight: 900;
-}
-@font-face {
-  font-family: Klien;
-  src: url(../assets/fonts/klein-Italic.woff) format('woff');
-  font-weight: 400;
-  font-style: italic;
-  unicode-range:U+0041-005A, U+0061-007A, U+0030-0039;
 }
 
 @font-face {
-  font-family: KoPub;
-  src: url(../assets/fonts/kopub-Regular.otf) format('opentype');
+  font-family: "Nanum BGothic";
+  src: url(../assets/fonts/NanumBarunGothic.otf) format('otf');
   font-weight: 400;
-}
-@font-face {
-  font-family: KoPub;
-  src: url(../assets/fonts/kopub-Bold.otf) format('opentype');
-  font-weight: 700;
-}
-@font-face {
-  font-family: KoPub;
-  src: url(../assets/fonts/kopub-Medium.otf) format('opentype');
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: Dotum;
-  src: url(../assets/fonts/dotum-Regular.otf) format('opentype');
-  font-weight: 400;
-}
-@font-face {
-  font-family: Dotum;
-  src: url(../assets/fonts/dotum-Bold.otf) format('opentype');
-  font-weight: 700;
-}
-@font-face {
-  font-family: Dotum;
-  src: url(../assets/fonts/dotum-Light.otf) format('opentype');
-  font-weight: 300;
+  unicode-range: U+AC00-U+D7A3;
 }

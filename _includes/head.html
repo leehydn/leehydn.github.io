@@ -13,9 +13,6 @@
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}{% for page in pages %}
   <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />{% endfor %}
   <link rel="alternate" type="application/rss+xml" title="{{ site.title[page.lang] }}" href="{{ site.feed[page.lang] | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="shortcut icon" type="image/png" href="../image/favicon.png">
-  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Noto+Sans&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/jpg" href="../image/favicon.jpg">
   <link rel="stylesheet" type="text/css" href="../css/fontrender.css">
 </head>
