@@ -4,7 +4,7 @@ title:  "メンテナンスのお知らせ"
 ref: mainten
 date:   2020-06-30 09:48:44 +0100
 categories: jekyll update
-lang: 日
+lang: JA
 hidden: false
 ---
 いつも私のWebページにお越しいただき、誠にありがとうございます。

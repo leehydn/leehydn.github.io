@@ -4,7 +4,7 @@ title:  "공사 중!"
 ref: welcomeds
 date:  2020-02-13 09:48:44 +0100
 categories: jekyll update
-lang: 한
+lang: KO
 hidden: false
 ---
 
