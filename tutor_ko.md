@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 과와
+title: 과외
 permalink: /ko/tutor
 ref: tutor
 lang: 한
-hidden: true
+hidden: false
 ---
 
 안녕하세요. 
