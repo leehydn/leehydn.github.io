@@ -23,6 +23,10 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    @media (prefers-color-scheme: dark) {
+        color: $dtext-color;
+        background-color: $dbackground-color;
+    }
 }
 
 
@@ -93,14 +97,23 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $brand-color;
     text-decoration: none;
+    @media (prefers-color-scheme: dark) {
+        color: $dbrand-color;
+    }
 
     &:visited {
         color: darken($brand-color, 15%);
+        @media (prefers-color-scheme: dark) {
+            color: darken($dbrand-color, 15%);
+        }
     }
 
     &:hover {
         color: $text-color;
         text-decoration: underline;
+        @media (prefers-color-scheme: dark) {
+            color: $dtext-color;
+        }
     }
 }
 
@@ -116,6 +129,10 @@ blockquote {
     font-size: 18px;
     letter-spacing: -1px;
     font-style: italic;
+    @media (prefers-color-scheme: dark) {
+        color: $dgrey-color;
+        border-left: 4px solid $dgrey-color-light;
+    }
 
     > :last-child {
         margin-bottom: 0;
@@ -133,6 +150,9 @@ code {
     border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: #eef;
+    @media (prefers-color-scheme: dark) {
+        border: 1px solid $dgrey-color-light;
+    }
 }
 
 code {
@@ -201,6 +221,9 @@ pre {
 
         path {
             fill: $grey-color;
+            @media (prefers-color-scheme: dark) {
+                color: $dgrey-color;
+            }
         }
     }
 }
