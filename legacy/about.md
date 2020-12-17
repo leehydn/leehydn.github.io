@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /legacy/en/about
+permalink: /legacy/about
 ref: legacy_about
 lang: EN
 hidden: true
