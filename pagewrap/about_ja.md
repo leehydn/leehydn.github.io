@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /ja/about
 ref: about
-lang: 日
+lang: JA
 hidden: false
 ---
 

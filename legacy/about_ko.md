@@ -3,7 +3,7 @@ layout: page
 title: 프로필
 permalink: /legacy/ko/about
 ref: legacy_about
-lang: 한
+lang: KO
 hidden: true
 ---
 {:center: style="text-align: center;"}

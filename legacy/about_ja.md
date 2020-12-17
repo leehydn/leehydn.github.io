@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /legacy/ja/about
 ref: legacy_about
-lang: 日
+lang: JA
 hidden: true
 ---
 {:center: style="text-align: center;"}

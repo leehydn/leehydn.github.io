@@ -3,7 +3,7 @@ layout: page
 title: 과외
 permalink: /ko/tutor
 ref: tutor
-lang: 한
+lang: KO
 hidden: false
 ---
 

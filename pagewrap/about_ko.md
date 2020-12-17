@@ -3,7 +3,7 @@ layout: page
 title: 프로필
 permalink: /ko/about
 ref: about
-lang: 한
+lang: KO
 hidden: false
 ---
 
