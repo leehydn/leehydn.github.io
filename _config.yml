@@ -51,10 +51,11 @@ defaults:
 
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "leehydn.github.io" # the base hostname & protocol for your site
-twitter_username: leehydn
+twitter_username: hyeondnl
 github_username:  leehydn
 github_subname: naruei
 linkedin_username:  leehydn
+facebook_username: leehydn
 
 # Build settings
 markdown: kramdown
