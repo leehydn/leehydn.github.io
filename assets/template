@@ -1,0 +1,23 @@
+#ifdef __APPLE__
+#include "bits/stdc++.h"
+#else
+#include <bits/stdc++.h>
+#endif
+#define ll long long
+#define ld long double
+#define pi pair<int, int>
+#define vi vector<int>
+#define vpi vector<pair<int, int> >
+#define si stack<int>
+#define pb push_back
+#define mp make_pair
+#define endl "\n"
+#define FAST() std::cin.tie(NULL); std::cout.tie(NULL); std::ios::sync_with_stdio(false)
+#define FOR(in, START, END) for (int in = START; in < END; ++in)
+#define FORD(in, START, END) for (int in = START; in >= END; --in)
+#define VAR(i, n) __typeof(n) i = (n)
+#define REP(in, n) FOR(in, 0, n)
+#define CLR(a, x) memset(a, x, sizeof(a))
+#define SIZE(x) ((int)x.size())
+#define INF 1000000009
+using namespace std;
