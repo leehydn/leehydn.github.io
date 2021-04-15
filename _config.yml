@@ -50,12 +50,12 @@ defaults:
     hidden: false
 
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "leehydn.github.io" # the base hostname & protocol for your site
-twitter_username: hyeondnl
-github_username:  leehydn
-github_subname: naruei
-linkedin_username:  leehydn
-facebook_username: leehydn
+url: "hyeondgl.github.io" # the base hostname & protocol for your site
+twitter_username: hyeondgl
+github_username:  hyeondgl
+github_subname: hyeondgl
+linkedin_username:  hyeondgl
+facebook_username: hyeondgl
 
 # Build settings
 markdown: kramdown
