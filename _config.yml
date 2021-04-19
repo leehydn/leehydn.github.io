@@ -1,5 +1,5 @@
 # Site settings
-email: leehydn@kaist.ac.kr
+email: hyeondg.lee@kaist.ac.kr
 
 home:
   EN: Home
@@ -7,9 +7,9 @@ home:
   KO: 홈
 
 portweb: 
-  EN: devlog.ml
-  JA: devlog.ml
-  KO: devcloud.tistory.com
+  EN: hyeondg.github.io/warehouse
+  JA: hyeondg.github.io/warehouse
+  KO: hyeondg.github.io/warehouse
 
 title:
   EN: The blog of Hyeondong Lee
@@ -30,8 +30,8 @@ contact:
   KO: 기타 연락은 메일로 부탁드립니다.
 
 weblink:
-  EN: Blog
-  JA: 技術ブログ（英文）
+  EN: Warehouse
+  JA: Warehouse
   KO: 블로그
 
 description:
@@ -50,12 +50,12 @@ defaults:
     hidden: false
 
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "hyeondgl.github.io" # the base hostname & protocol for your site
-twitter_username: hyeondgl
-github_username:  hyeondgl
-github_subname: hyeondgl
-linkedin_username:  hyeondgl
-facebook_username: hyeondgl
+url: "hyeondg.github.io" # the base hostname & protocol for your site
+twitter_username: hyeondg
+github_username:  hyeondg
+github_subname: hyeondg
+linkedin_username:  hyeondg
+facebook_username: hyeondg
 
 # Build settings
 markdown: kramdown
