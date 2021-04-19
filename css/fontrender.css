@@ -27,3 +27,8 @@
   src: url(../assets/fonts/caruta-Bold.woff) format('woff');
   font-weight: 600;
 }
+
+@font-face {
+    font-family: "Cascadia";
+    src: "/assets/CascadiaCode.ttf" format("ttf");
+}
